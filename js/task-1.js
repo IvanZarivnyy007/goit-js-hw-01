@@ -2,7 +2,7 @@
 
 function makeTransaction(quantity, pricePerDroid) {
 let totalPrice = quantity * pricePerDroid;
-let result = "You ordered " + quantity + " droids worth " + totalPrice + " credits!";
+let result = `You ordered ${quantity} droids worth ${totalPrice} credits'!'`;
 console.log(result);
 return result;   
 }
